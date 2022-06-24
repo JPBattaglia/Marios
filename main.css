@@ -64,7 +64,7 @@ body{
     background-image: url(WindowNightDark.jpeg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(BehindBarDark.jpeg);
+    background-image: url(MariosWindowInside.png);
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
@@ -76,7 +76,7 @@ body{
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(OutsideWindowDark.jpeg);
+    background-image: url(MariosStorefront.png);
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
@@ -304,8 +304,8 @@ h6{
     0 0 7px #eaff00,
     0 0 10px #eaff00,
     0 0 21px #eaff00,
-    0 0 42px #0fa,
-    0 0 82px #0fa;
+    0 0 42px #eaff00,
+    0 0 82px #eaff00;
     width: 400px;
     margin: auto;
 }
@@ -359,20 +359,19 @@ p{
 
 .sidenav a {
     letter-spacing: 2px;
-    font-family: 'lexend deca';
+    font-family: 'Corinthia';
     margin: 85px 10px;
-    font-size: 28px;
-    color: black;
+    color: #fff;
     display: block;
     transition: 1s;
     max-width: 100%;
     text-align: center;
     text-shadow:
-       1px 1px 0 red,
-      -1px -1px 0 red,  
-       1px -1px 0 red,
-      -1px 1px 0 red,
-       1px 1px 0 red;
+    0 0 7px #eaff00,
+    0 0 10px #eaff00,
+    0 0 21px #eaff00,
+    0 0 42px #eaff00,
+    0 0 82px #eaff00;
     text-decoration: none;
 }
 
@@ -406,7 +405,7 @@ nav{
     margin-bottom: 10px;
     width: 95%;
     height: 150px;
-    background: #500000;
+    background: #600000;
     box-shadow: 
             inset 21px 21px 34px #200000,
             inset -21px -21px 34px #800000;
@@ -524,13 +523,13 @@ img {
     text-decoration: none;
     background: black;
     padding: 8px 30px;
-    border: 1px solid #b00;
+    border: 1px solid #c00;
     border-radius: 20px;  
 }
 
 .desktop a:hover{
     transition: 1s;
-    border: 1px solid red;
+    border: 1px solid #eaff00;
     text-shadow: .5px .5px 0px #fff, -.5px -.5px 0px #fff, -.5px .5px 0px #fff, .5px -.5px 0px #fff;
         
 }
@@ -841,7 +840,7 @@ img {
     
     nav{
         width: 97%;
-        margin: 11px auto 700px;
+        margin: 11px auto 50px;
         padding: 10px 12px;
         height: 100px;
         border: 8px double black;
@@ -859,14 +858,8 @@ img {
     }
     
     h6{
-        font-size: 62px;
+        font-size: 80px;
         width: 100px;
-        margin: auto;
-    }
-    
-    .mobiletype{
-        float: left;
-        margin: -200px auto
     }
     
     #togo{
@@ -883,7 +876,7 @@ img {
     
     .sidenav a{
         margin: 30% auto;
-        font-size: 25px;
+        font-size: 40px;
     }
     
     .navicon {
@@ -893,17 +886,15 @@ img {
     }
     
     #map{
-        width: 266px;
-        height: 133px;
+        width: 260px;
+        height: 128px;
         margin: 50px auto;
-        border: 4px double red;
-        border-radius: 12px;
+        border: 1px solid red;
     }
     
     iframe{
         width: 258px;
         height: 125px;
-        border-radius: 8px;
     }
     
    h1{
@@ -939,10 +930,6 @@ img {
     
     #map{
         margin: 30px auto 40px;
-    }
-    
-    .mobile{
-        margin-top: -300px;
     }
 
     h2{
@@ -1107,7 +1094,7 @@ img {
         width: 100%;
         font-weight: bolder;
         font-size: 18px;
-        color: #ff6ed1;
+        color: red;
     }
     
     .modalDialog > div {
@@ -1387,11 +1374,3 @@ img {
 
 /*=======================================*/
 /*=======================================*/
-
-@media (min-width: 550px) and (max-width: 699px){
-    
-    
-    .mobile{
-        margin-top: -200px;
-    }
-}
