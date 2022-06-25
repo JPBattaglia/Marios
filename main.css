@@ -239,7 +239,7 @@ h3:hover{
 }
 
 #menumade {
-    padding-top: 15px;
+    padding: 15px 0 10px 0;
     width: 75px;
     filter: drop-shadow(2px 2px 1px #010);
 }
@@ -347,9 +347,10 @@ p{
     z-index: 1;
     top: 0;
     right: 0;
-    background: url(SlideOutMenuDDC.png);
+    background: linear-gradient(to left, #000, #400, #700, #400, #000 100%);;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    border-left: .5px solid #b00;
     overflow-x: hidden;
     transition: .8s;
     padding-top: 125px;
@@ -376,13 +377,13 @@ p{
 }
 
 .sidenav a:hover {
-    color: red;
+    color: #fff;
     text-shadow:
-       1px 1px 0 Black,
-      -1px -1px 0 Black,  
-       1px -1px 0 Black,
-      -1px 1px 0 Black,
-       1px 1px 0 Black;
+       1px 1px 0 red,
+      -1px -1px 0 red,  
+       1px -1px 0 red,
+      -1px 1px 0 red,
+       1px 1px 0 red;
 }
 
 .sidenav .closebtn {
@@ -650,12 +651,12 @@ img {
 
     /* Style inputs with type="text", select elements and textareas */
     input[type=text], select, textarea {
-        background-color: #ffd6f0;
+        background-color: #fff0c7;
         margin: auto;
         text-align: center;
         width: 60%; /* Full width */
         padding: 8px; /* Some padding */  
-        border: 5px double red; /* Gray border */
+        border: 5px double #a00; /* Gray border */
         border-radius: 25px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 30px; /* Add a top margin */
@@ -668,7 +669,7 @@ img {
         color: #fff;
         margin: 20px 0;
         padding: 8px;
-        background: red;
+        background: #d00;
         width: 140px;
         border-radius: 30px;
         font-family: 'Federant';
@@ -718,8 +719,10 @@ img {
     }
     
     #form h2{
-        margin: -20px auto 20px;
+        margin: 20px auto 20px;
         font-size: 40px;
+        text-align: center;
+        width: 300px;
     }
 
     footer{
@@ -982,7 +985,7 @@ img {
 
     #message{
         height: 100px;
-        background-color: #ffd6f0;
+        background-color: #fff0c7;
     }
     
     #fname{
@@ -1006,7 +1009,7 @@ img {
 
     /* Style inputs with type="text", select elements and textareas */
     input[type=text], select, textarea {
-        background-color: #ffd6f0;
+        background-color: #fff0c7;
         margin: auto;
         font-family: 'federant';
         font-size: 18px;
@@ -1014,7 +1017,7 @@ img {
         text-align: center;
         width: 80%;
         padding: 4px; /* Some padding */  
-        border: 4.5px double red; /* Gray border */
+        border: 4.5px double #a00; /* Gray border */
         border-radius: 20px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 25px; /* Add a top margin */
@@ -1027,7 +1030,7 @@ img {
         color: #fff;
         margin: 20px 0;
         padding: 5px;
-        background: red;
+        background: #d00;
         width: 120px;
         border-radius: 30px;
         font-family: 'Federant';
@@ -1084,7 +1087,7 @@ img {
     }
 
     footer{
-        float:left;
+        float: left;
         width: 100%;
         text-align: center;
         font-size: 20PX;
@@ -1093,7 +1096,7 @@ img {
     footer p{
         width: 100%;
         font-weight: bolder;
-        font-size: 18px;
+        font-size: 16px;
         color: red;
     }
     
@@ -1238,7 +1241,7 @@ img {
         font-size: 18px;
         font-weight:bolder;
         max-width: 550px;
-        background-color: #ffc7eb;
+        background-color: #fff0c7;
     }
 
     select{
@@ -1249,12 +1252,12 @@ img {
         font-weight:bolder;
         max-width: 30%;
         box-sizing: border-box;
-        background-color: #ffc7eb;
+        background-color: #fff0c7;
     }
 
     #message{
         height: 200px;
-        background-color: #ffc7eb;
+        background-color: #fff0c7;
     }
     
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -1272,12 +1275,12 @@ img {
 
     /* Style inputs with type="text", select elements and textareas */
     input[type=text], select, textarea {
-        background-color: #ffd6f0;
+        background-color: #fff0c7;
         margin: auto;
         text-align: center;
         width: 90%; /* Full width */
         padding: 8px; /* Some padding */  
-        border: 5px double red; /* Gray border */
+        border: 5px double #a00; /* Gray border */
         border-radius: 25px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 50px; /* Add a top margin */
@@ -1290,7 +1293,7 @@ img {
         color: #fff;
         margin: 20px 0;
         padding: 8px;
-        background: red;
+        background: #d00;
         width: 140px;
         border-radius: 30px;
         font-family: 'Federant';
