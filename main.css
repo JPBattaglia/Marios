@@ -540,7 +540,7 @@ img {
 /*=======================================*/
 
 @media (max-width: 1000px) and (min-width: 701px){
-     #rotate, .mobile, .navicon{
+     #rotate, .mobile, .navicon, .mobiletype{
         display: none;
     }
     
@@ -557,8 +557,8 @@ img {
     }
     
     .sidenav .closebtn {
-    margin: 15px;
-    padding: 42px 23px 28px 22px;
+        margin: 15px;
+        padding: 42px 23px 28px 22px;
     }
     
     .logo{
@@ -784,6 +784,10 @@ img {
         border-radius: 8px;
     }
     
+    .menu{
+        margin-top: 120px;
+    }
+    
     .menu img{
         width: 90%;
     }
@@ -832,7 +836,7 @@ img {
 
 @media (max-width: 700px){
     
-    .desktop{
+    .desktop, .desktoptype{
         display: none;
     }
     
@@ -1155,7 +1159,7 @@ img {
 
 @media (max-width: 1200px) and (min-width: 1000px){
     
-    .mobile{
+    .mobile, .mobiletype{
         display: none;
     }
     
@@ -1188,7 +1192,7 @@ img {
     
     .desknav a{
         font-size: 18px;
-        padding: 10px 20px;
+        padding: 8px 20px;
         margin: 0 14px;
     }
 }
@@ -1197,7 +1201,7 @@ img {
 /*=======================================*/
 
 @media (min-width: 1000px){
-     #rotate, .navicon, .mobile{
+     #rotate, .navicon, .mobile, .mobiletype{
         display: none;
     }
     
