@@ -406,10 +406,10 @@ nav{
     margin-bottom: 10px;
     width: 95%;
     height: 150px;
-    background: #600000;
+    background: #800000;
     box-shadow: 
             inset 21px 21px 34px #200000,
-            inset -21px -21px 34px #800000;
+            inset -21px -21px 34px #600000;
     border: 8px double #000000;
     border-radius: 20px;
     text-align: center;
@@ -524,7 +524,7 @@ img {
     text-decoration: none;
     background: black;
     padding: 8px 30px;
-    border: 1px solid #c00;
+    border: 1px solid #d00;
     border-radius: 20px;  
 }
 
@@ -742,7 +742,7 @@ img {
     .logo{
         float: left;
         width: 140px;
-        margin: -14px 0 0 10px;
+        margin: -22px 0 0 25px;
     }
     
     nav{
@@ -838,7 +838,6 @@ img {
     
     .logo{
         max-width: 100px;
-        margin:  -22px 0 0 ;
         filter: drop-shadow(2px 2px 4px #000);
     }
     
