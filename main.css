@@ -219,7 +219,7 @@ body{
 
 
 h4:hover{
-    box-shadow: 2px 8px 10px #b3b300;
+    box-shadow: 2px 8px 15px yellow;
     color: #fff;
     text-shadow:
        1px 1px 0 #000,
@@ -272,20 +272,20 @@ h3{
 }
 
 h4{
+    z-index: 9999999;
     position: absolute; 
-    top: 30px;
-    left: 43%;
+    top: 60px;
+    left: 22%;
     font-weight: bolder;
     margin: 20px auto;
     font-size: 18px;
-    color: #fff;
-    padding: 8px 10px;
-    background: repeating-linear-gradient(to top, #33331a, #808000, #cccc00 100%);  
-    width: 180px;
+    color: #eaff00;
+    padding: 6px 8px;
+    width: 120px;
     border-radius: 30px;
     font-family: 'Kanit';     
     text-decoration: none;
-    border: .5px solid #bbbb77;
+    border: 2px solid #bbbb77;
     box-shadow: 2px 4px 8px #000,
                 -2px 4px 8px #000;
 }
@@ -426,8 +426,9 @@ nav img{
 }
 
 #togo{
-    width: 180px;
-    margin: 35px 0;
+    width: 100px;
+    margin: 5px 0;
+    text-align: center;
 }
 
 .navicon {
@@ -567,7 +568,7 @@ img {
     }
     
     #togo{
-        margin: 20px 0;
+        margin: 20px 0 0 200px;
     }
     
     p{
@@ -603,12 +604,14 @@ img {
     }
     
     h4{
-        font-size: 15px;
+        font-size: 18px;
+        background: #800;
         padding: 8px 10px;
         width: 120px;
         position: absolute; 
-        top: 20px;
-        left: 43%;
+        top: 130px;
+        left: 45%;
+        z-index: 99999999;
     }
     
     
@@ -857,23 +860,17 @@ img {
     }
     
      h4{
-        font-size: 12px;
+        font-size: 16px;
         padding: 6px 8px;
         width: 100px;
         position: absolute; 
         top: 20px;
-        left: 38%;
+        left: 44%;
     }
     
     h6{
         font-size: 80px;
         width: 100px;
-    }
-    
-    #togo{
-        width: 100px;
-        height: 38px;
-        margin: 15px 0 0 40px;
     }
     
     .sidenav .closebtn {
@@ -1168,6 +1165,12 @@ img {
     h1{
         border: 10px double #775;
         font-size: 40px;
+    }
+    
+    h4{
+        left: 23%;
+        width: 110px;
+        margin: 22px 0;
     }
     
     .close{
