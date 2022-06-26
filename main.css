@@ -847,6 +847,7 @@ img {
     .logo{
         max-width: 100px;
         filter: drop-shadow(2px 2px 4px #000);
+        margin-left: -5px;
     }
     
     nav{
@@ -860,12 +861,14 @@ img {
     }
     
      h4{
+        z-index: 0;
         font-size: 16px;
-        padding: 6px 8px;
-        width: 100px;
+        padding: 4px 4px;
+        width: 95px;
         position: absolute; 
         top: 20px;
-        left: 44%;
+        left: 42%;
+        border: .5px solid;
     }
     
     h6{
