@@ -276,19 +276,20 @@ h3{
 h4{
     z-index: 9999999;
     position: absolute; 
-    top: 60px;
-    left: 22%;
+    top: 185px;
+    left: 47%;
     font-weight: bolder;
     margin: 20px auto;
     font-size: 18px;
     color: #fff0c7;
-    padding: 6px 8px;
-    width: 120px;
+    padding: 4px 6px;
+    width: 110px;
     border-radius: 30px;
     font-family: 'Kanit';     
     text-decoration: none;
     border: 2px solid #bbbb77;
     box-shadow: -2px 4px 20px #000;
+    background: #400;
 }
 
 h5{
@@ -606,10 +607,10 @@ img {
     }
     
     h4{
-        font-size: 18px;
-        background: #800;
-        padding: 8px 10px;
-        width: 120px;
+        font-size: 16px;
+        background: #300;
+        padding: 4px 8px;
+        width: 110px;
         position: absolute; 
         top: 130px;
         left: 45%;
@@ -1174,9 +1175,9 @@ img {
     }
     
     h4{
-        left: 23%;
+        left: 45%;
         width: 110px;
-        margin: 22px 0;
+        background: #300;
     }
     
     .close{
