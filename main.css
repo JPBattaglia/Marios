@@ -136,7 +136,7 @@ body{
 	bottom: 0px;
 	left: 0px;
 	background: rgba(0,0,0,0.8);
-	z-index: 99999;
+	z-index: 99999999999;
 	opacity:0;
 	-webkit-transition: opacity 600ms ease-in;
 	-moz-transition: opacity 600ms ease-in;
@@ -200,7 +200,7 @@ body{
         text-align: center;
         width: 55%;
         position: relative;
-        margin: 50px auto;
+        margin: 150px auto;
         padding: 50px;
         border-radius: 15px;
         background:url();
@@ -274,7 +274,7 @@ h3{
 }
 
 h4{
-    z-index: 9999999;
+    z-index: 999999;
     position: absolute; 
     top: 185px;
     left: 47%;
