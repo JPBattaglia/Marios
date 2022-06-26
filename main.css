@@ -64,7 +64,7 @@ body{
     background-image: url(WindowNightDark.jpeg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(MariosWindowInside.png);
+    background-image: url(CornerTableDark.jpeg);
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
@@ -246,7 +246,7 @@ h3:hover{
 
 h2{
     font-size: 35px;
-    font-family: 'Lexend+Deca', serif;
+    font-family: 'Kanit', serif;
     font-weight: bolder;
     text-align: center;
     color: #fff;
@@ -283,7 +283,7 @@ h4{
     background: repeating-linear-gradient(to top, #33331a, #808000, #cccc00 100%);  
     width: 180px;
     border-radius: 30px;
-    font-family: 'federant';     
+    font-family: 'Kanit';     
     text-decoration: none;
     border: .5px solid #bbbb77;
     box-shadow: 2px 4px 8px #000,
@@ -291,7 +291,7 @@ h4{
 }
 
 h5{
-    font-family: Federant;
+    font-family: 'Kanit';
     font-size: 26px;
     line-height: 1.7;
 }
@@ -758,6 +758,7 @@ img {
         margin: 25px 15px 0px 0px;
         width: 48px;
         height: 36px;
+        
     }
 
     
@@ -825,7 +826,7 @@ img {
         flex-direction: column;
         flex-basis: 100%;
         flex: 1;
-        border: 5px double red;
+        border: 3px double #fff0c7;
         border-radius: 10px;
     }
 }
@@ -887,9 +888,10 @@ img {
     }
     
     .navicon {
-        width: 35px;
-        height: 28px;
-        margin: 12px 5px 0px 0px;
+        width: 40px;
+        height: 35px;
+        margin: 6px 5px 0px 0px;
+        filter: drop-shadow(-3px -2px 8px #fff0c7);
     }
     
     #map{
@@ -1148,7 +1150,7 @@ img {
         flex-direction: column;
         flex-basis: 100%;
         flex: 1;
-        border: 5px double red;
+        border: 3px double #fff0c7;
         border-radius: 10px;
     }
 }
@@ -1186,7 +1188,7 @@ img {
         flex-direction: column;
         flex-basis: 100%;
         flex: 1;
-        border: 5px double red;
+        border: 3px double #fff0c7;
         border-radius: 10px;
     }
     
@@ -1360,7 +1362,7 @@ img {
         flex-direction: column;
         flex-basis: 100%;
         flex: 1;
-        border: 5px double red;
+        border: 3px double #fff0c7;
         border-radius: 10px;
     }
     
