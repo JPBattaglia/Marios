@@ -865,9 +865,9 @@ img {
         padding: 4px 4px;
         width: 95px;
         position: absolute; 
-        top: 115px;
-        left: 42%;
-        border: 1px solid #fff0c7;
+        top: 25px;
+        left: 44%;
+        border: .5px solid #fff0c7;
         border-radius: 20px;
     }
     
@@ -1112,20 +1112,20 @@ img {
         text-align: center;
         width: 90%;
         position: relative;
-        margin: 15px auto;
+        margin: 30% auto;
         padding: 30px 20px;
         border-radius: 15px;
         background: url(SkylineSLIDE.png);
         background-size: 100% 130%;
-        border: #ff6ed1 double 3px;
-        max-width: 100%;
+        border: red double 3px;
+        max-width: 80%;
         max-height: calc(100vh - 6rem);
         overflow-y: auto;
         }
     
     .close{
-        right: 5px;
-        top: 5px;
+        right: 20px;
+        top: 20px;
     }
     
     .menu{
