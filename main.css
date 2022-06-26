@@ -193,7 +193,7 @@ body{
 
 
 .modalDialog > div {
-        color: white;
+        color: #f1ffc4;
         font-family: Federant;
         line-height: 2;
         font-size: 22px;
@@ -249,9 +249,11 @@ h2{
     font-family: 'Kanit', serif;
     font-weight: bolder;
     text-align: center;
-    color: #fff;
+    color: #f1ffc4;
     text-shadow:
-       -1px -1px 0 red,  
+       -1px -1px 0 red,
+       -1px 1px 0 red,
+       1px -1px 0 red,
        1px 1px 0 red;
     margin: 40px 0;
 }
@@ -290,6 +292,7 @@ h4{
 }
 
 h5{
+    color: #f1ffc4;
     font-family: 'Kanit';
     font-size: 26px;
     line-height: 1.7;
@@ -361,7 +364,7 @@ p{
     letter-spacing: 2px;
     font-family: 'Corinthia';
     margin: 85px 10px;
-    color: #f4ff94;
+    color: #f1ffc4;
     display: block;
     transition: 1s;
     max-width: 100%;
@@ -954,7 +957,7 @@ img {
     h5{
         font-size: 20px; 
         margin: -3px auto;
-        color: #fff;
+        color: #f1ffc4;;
     }
     
     p{
