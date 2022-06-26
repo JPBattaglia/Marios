@@ -279,15 +279,14 @@ h4{
     font-weight: bolder;
     margin: 20px auto;
     font-size: 18px;
-    color: #eaff00;
+    color: #fff0c7;
     padding: 6px 8px;
     width: 120px;
     border-radius: 30px;
     font-family: 'Kanit';     
     text-decoration: none;
     border: 2px solid #bbbb77;
-    box-shadow: 2px 4px 8px #000,
-                -2px 4px 8px #000;
+    box-shadow: -2px 4px 20px #000;
 }
 
 h5{
@@ -847,7 +846,7 @@ img {
     .logo{
         max-width: 100px;
         filter: drop-shadow(2px 2px 4px #000);
-        margin-left: -5px;
+        margin-left: 5px;
     }
     
     nav{
@@ -866,9 +865,10 @@ img {
         padding: 4px 4px;
         width: 95px;
         position: absolute; 
-        top: 20px;
+        top: 115px;
         left: 42%;
-        border: .5px solid;
+        border: 1px solid #fff0c7;
+        border-radius: 20px;
     }
     
     h6{
