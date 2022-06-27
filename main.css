@@ -251,7 +251,7 @@ h3{
 h4{
     z-index: 999999;
     position: absolute; 
-    top: 185px;
+    top: 200px;
     left: 47%;
     font-weight: bolder;
     margin: 20px auto;
@@ -381,7 +381,7 @@ p{
 nav{
     z-index: 999999;
     margin: 30px auto;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     width: 95%;
     height: 150px;
     background: #800000;
@@ -545,10 +545,6 @@ img {
         width: 120px;
     }
     
-    #togo{
-        margin: 20px 0 0 200px;
-    }
-    
     p{
         color: #fff;
         font-size: 15px;
@@ -587,7 +583,7 @@ img {
         padding: 4px 8px;
         width: 110px;
         position: absolute; 
-        top: 130px;
+        top: 150px;
         left: 45%;
         z-index: 99999999;
     }
@@ -648,16 +644,16 @@ img {
 
     /* Style the submit button with a specific background color etc */
     input[type=submit] {
-        color: #fff;
+        color:  #fff0c7;
         margin: 20px 0;
         padding: 8px;
-        background: #d00;
+        background: #700;
         width: 140px;
         border-radius: 30px;
         font-family: 'Federant';
         font-size: 20px;
         text-decoration: none;
-        border: .5px solid red;
+        border: 1px solid  #fff0c7;
         text-shadow:
         1px 1px 0 red,
         -1px -1px 0 red,  
@@ -675,9 +671,9 @@ img {
 
     /* When moving the mouse over the submit button, add a blue color */
     input[type=submit]:hover {
-        box-shadow: 2px 8px 8px red;
+        box-shadow: 1px 2px 30px  #fff0c7;
         color: antiquewhite;
-        border: .5px solid red;
+        border: 1px solid  #fff0c7;
         cursor: pointer;  
     }
     
@@ -727,7 +723,7 @@ img {
     }
     
     nav{
-        margin: 17px auto;      
+        margin: 17px auto 50px;      
         width: 98%;
         height: 110px;
         border: 8px double black;
@@ -857,9 +853,9 @@ img {
     }
     
     .sidenav .closebtn {
-        margin: 0px;
-        font-size: 34px;
-        padding: 36px 38px 28px 22px;
+        margin: 25px 30px -20px 0;
+        font-size: 60px;
+        padding: 0;
     }
     
     .sidenav a{
@@ -1013,16 +1009,16 @@ img {
 
      /* Style the submit button with a specific background color etc */
     input[type=submit] {
-        color: #fff;
+        color: #fff0c7;
         margin: 20px 0;
         padding: 5px;
-        background: #d00;
+        background: #700;
         width: 120px;
         border-radius: 30px;
         font-family: 'Federant';
         font-size: 20px;
         text-decoration: none;
-        border: .5px solid red;
+        border: 1px solid #fff0c7;
         text-shadow:
         1px 1px 0 red,
         -1px -1px 0 red,  
@@ -1036,14 +1032,21 @@ img {
         -moz-transition: background-color 1s ease-out;
         -o-transition: background-color 1s ease-out;
         transition: background-color 1s ease-out;
+        box-shadow: 2px 2px 20px transparent;
     }
 
     /* When moving the mouse over the submit button, add a blue color */
     input[type=submit]:hover {
-        box-shadow: 2px 8px 8px red;
-        color: antiquewhite;
-        border: .5px solid red;
+        box-shadow: 2px 2px 20px #fff0c7;
+        color: #fff0c7;
+        border: 1px solid #fff0c7;
         cursor: pointer;  
+        text-shadow:
+        1px 1px 0 red,
+        -1px -1px 0 red,  
+        1px -1px 0 red,
+        -1px 1px 0 red,
+        1px 1px 0 red;
     }
 
     /* Add a background color and some padding around the form */
@@ -1282,16 +1285,16 @@ img {
 
      /* Style the submit button with a specific background color etc */
     input[type=submit] {
-        color: #fff;
+        color: #fff0c7;
         margin: 20px 0;
         padding: 8px;
-        background: #d00;
+        background: #700;
         width: 140px;
         border-radius: 30px;
         font-family: 'Federant';
         font-size: 20px;
         text-decoration: none;
-        border: .5px solid red;
+        border: 1px solid #fff0c7;
         text-shadow:
         1px 1px 0 red,
         -1px -1px 0 red,  
@@ -1309,9 +1312,9 @@ img {
 
     /* When moving the mouse over the submit button, add a blue color */
     input[type=submit]:hover {
-        box-shadow: 2px 8px 8px red;
+        box-shadow: 2px 2px 20px #fff0c7;
         color: antiquewhite;
-        border: .5px solid red;
+        border: 1px solid #fff0c7;
         cursor: pointer;  
     }
     
@@ -1369,3 +1372,17 @@ img {
 
 /*=======================================*/
 /*=======================================*/
+
+@media (max-width: 300px){
+    
+    h4{
+        font-size: 14px;
+        width: 75px;
+        margin: 22px -2px;
+        padding: 3px;
+    }
+    
+    .logo{
+        margin-left: -10px;
+    }
+}
