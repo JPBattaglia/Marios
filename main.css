@@ -373,7 +373,7 @@ nav{
     background: #900000;
     box-shadow: 
             inset 21px 21px 34px #300000,
-            inset -21px -21px 34px #c00000;
+            inset -21px -21px 34px #a00000;
     border: 8px double #000000;
     border-radius: 20px;
     text-align: center;
@@ -1372,3 +1372,24 @@ img {
         margin-left: -10px;
     }
 }
+
+/*=======================================*/
+/*=======================================*/
+
+@media (max-width: 1001px) and (min-width: 800px){
+    
+    .desknav {
+        margin-right: 50px;
+    }
+    
+    .desktop a{
+        margin-right: 20px;
+    }
+    
+    
+}
+
+
+
+/*=======================================*/
+/*=======================================*/
