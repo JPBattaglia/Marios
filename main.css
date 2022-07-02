@@ -193,6 +193,7 @@ body{
 
 
 h4:hover{
+    background: #900;
     box-shadow: 1px 4px 25px yellow;
     color: #f1ffc4;
     text-shadow:
@@ -369,7 +370,7 @@ nav{
     margin-bottom: 50px;
     width: 95%;
     height: 150px;
-    background: #a00000;
+    background: #900000;
     box-shadow: 
             inset 21px 21px 34px #300000,
             inset -21px -21px 34px #c00000;
@@ -412,7 +413,7 @@ nav img{
     -webkit-transition: width 2s, height 2s, 
     -webkit-transform 1.5s; /* Safari */
     transition: width 2s, height 2s, transform 1.5s;
-    filter: drop-shadow(4px 3px 5px #000);
+    filter: drop-shadow(0px 0px 5px #c00);
 }
 
 .logo:hover{
@@ -488,15 +489,15 @@ img {
     text-decoration: none;
     background: black;
     padding: 8px 30px;
-    border: 1px solid #d00;
+    border: 1px solid #c99300;
     border-radius: 20px;  
 }
 
 .desktop a:hover{
     color: #eaff00;
     transition: 1s;
-    border: 1px solid #eaff00;
-    text-shadow: .5px .5px 0px #fff, -.5px -.5px 0px #fff, -.5px .5px 0px #fff, .5px -.5px 0px #fff;
+    border: 1px solid yellow;
+    text-shadow: 1px 1px 0px red, -1px -1px 0px red, -1px 1px 0px red, 1px -1px 0px red;
         
 }
 
@@ -805,9 +806,8 @@ img {
     
     .logo{
         max-width: 100px;
-        filter: drop-shadow(2px 2px 4px #000);
-        margin-left: 5px;
-        margin-bottom: 0;
+        filter: drop-shadow(0px 0px 2px #c00);
+        margin: -24px 0 0 10px;
     }
     
     nav{
@@ -830,6 +830,7 @@ img {
         left: 44%;
         border: .5px solid #fff0c7;
         border-radius: 20px;
+        filter: drop-shadow(0px 0px 1px #f00);
     }
     
     h6{
