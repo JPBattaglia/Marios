@@ -43,26 +43,26 @@ body{
 }
 
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(WindowNightDark.png) 
+    background-image: url(WindowNight.jpeg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(CornerTableDark.jpeg);
+    background-image: url(BehindBar.jpeg);
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(WashingtonSquareCathedral.png);
+    background-image: url(CornerTable.jpeg);
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(SideBarDark.jpeg);
+    background-image: url(Espresso.jpeg);
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(MariosStorefront.png);
+    background-image: url(OutsideDay.jpeg);
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url(OutsideDayDark.jpeg);
+    background-image: url(WindowAwning.jpeg);
     animation-delay: 30s; 
 }
 
@@ -369,10 +369,10 @@ nav{
     margin-bottom: 50px;
     width: 95%;
     height: 150px;
-    background: #800000;
+    background: #a00000;
     box-shadow: 
-            inset 21px 21px 34px #200000,
-            inset -21px -21px 34px #600000;
+            inset 21px 21px 34px #300000,
+            inset -21px -21px 34px #c00000;
     border: 8px double #000000;
     border-radius: 20px;
     text-align: center;
