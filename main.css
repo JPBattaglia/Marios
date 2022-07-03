@@ -582,11 +582,12 @@ img {
         font-size: 18px;
         font-weight: bolder;
         max-width: 500px;
-        background-color: #eaddf0;
+        background-color: #fff0c7;
     }
     
     #message{
         height: 200px;
+        background-color: #fff0c7;
     }
 
     select{
@@ -597,12 +598,12 @@ img {
         font-weight: bolder;
         max-width: 30%;
         box-sizing: border-box;
-        background-color: #eaddf0;
     }
 
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: red;
         opacity: 1; /* Firefox */
+        background-color: #fff0c7;
     }
 
     :-ms-input-placeholder { /* Internet Explorer 10-11 */
