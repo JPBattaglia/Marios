@@ -194,14 +194,14 @@ body{
 
 h4:hover{
     background: #900;
-    box-shadow: 1px 4px 25px yellow;
-    color: #f1ffc4;
+    box-shadow: 1px 1px 25px #fff;
+    color: #fff0c7;
     text-shadow:
-       1px 1px 0 red,
-      -1px -1px 0 red,  
-       1px -1px 0 red,
-      -1px 1px 0 red,
-       1px 1px 0 red;
+       1px 1px 0 black,
+      -1px -1px 0 black,  
+       1px -1px 0 black,
+      -1px 1px 0 black,
+       1px 1px 0 black;
     text-decoration: none;
     }
 
@@ -257,15 +257,18 @@ h4{
     font-weight: bolder;
     margin: 20px auto;
     font-size: 18px;
-    color: #fff0c7;
+    color: #fff;
     padding: 4px 6px;
     width: 110px;
     border-radius: 30px;
     font-family: 'Kanit';     
     text-decoration: none;
-    border: 2px solid #bbbb77;
+    border: 1px solid #fff;
     box-shadow: -2px 4px 20px #000;
-    background: #400;
+    background: #f00;
+    box-shadow: inset -14px -14px 23px #600,
+            13px 13px 35px #002,
+            inset 14px 14px 23px #f00;
 }
 
 h5{
@@ -490,13 +493,13 @@ img {
     background: black;
     padding: 8px 30px;
     border: 1px solid #c99300;
-    border-radius: 20px;  
+    border-radius: 20px; 
 }
 
 .desktop a:hover{
-    color: #eaff00;
+    color: white;
     transition: 1s;
-    border: 1px solid yellow;
+    border: 1px solid #fff0c7;
     text-shadow: 1px 1px 0px red, -1px -1px 0px red, -1px 1px 0px red, 1px -1px 0px red;
         
 }
@@ -634,7 +637,10 @@ img {
         color:  #fff0c7;
         margin: 20px 0;
         padding: 8px;
-        background: #700;
+        background: #f00;
+        box-shadow: inset -14px -14px 23px #600,
+            13px 13px 35px #002,
+            inset 14px 14px 23px #f00;
         width: 140px;
         border-radius: 30px;
         font-family: 'Federant';
@@ -647,9 +653,6 @@ img {
         1px -1px 0 red,
         -1px 1px 0 red,
         1px 1px 0 red;
-        box-shadow: 
-        2px 8px 10px black,
-        -2px 8px 10px black;
         -webkit-transition: background-color 1s ease-out;
         -moz-transition: background-color 1s ease-out;
         -o-transition: background-color 1s ease-out;
@@ -658,9 +661,12 @@ img {
 
     /* When moving the mouse over the submit button, add a blue color */
     input[type=submit]:hover {
-        box-shadow: 1px 2px 30px  #fff0c7;
+        background: #f00;
+        box-shadow: inset -14px -14px 23px #f00,
+            13px 13px 35px #002,
+            inset 14px 14px 23px #600;
         color: antiquewhite;
-        border: 1px solid  #fff0c7;
+        border: 1px solid  #fff;
         cursor: pointer;  
     }
     
@@ -705,12 +711,12 @@ img {
 
     .logo{
         float: left;
-        width: 140px;
-        margin: -22px 0 0 55px;
+        width: 130px;
+        margin: -15px 0 0 40px;
     }
     
     nav{
-        margin: 17px auto 50px;      
+        margin: 17px auto 45px;      
         width: 96%;
         height: 130px;
         border: 8px double black;
@@ -829,7 +835,7 @@ img {
         position: absolute; 
         top: 25px;
         left: 44%;
-        border: .5px solid #fff0c7;
+        border: 1px solid #fff0c7;
         border-radius: 20px;
         filter: drop-shadow(0px 0px 1px #f00);
     }
@@ -999,7 +1005,6 @@ img {
         color: #fff0c7;
         margin: 20px 0;
         padding: 5px;
-        background: #700;
         width: 120px;
         border-radius: 30px;
         font-family: 'Federant';
@@ -1012,14 +1017,15 @@ img {
         1px -1px 0 red,
         -1px 1px 0 red,
         1px 1px 0 red;
-        box-shadow: 
-        2px 8px 10px black,
-        -2px 8px 10px black;
         -webkit-transition: background-color 1s ease-out;
         -moz-transition: background-color 1s ease-out;
         -o-transition: background-color 1s ease-out;
         transition: background-color 1s ease-out;
         box-shadow: 2px 2px 20px transparent;
+        background: #f00;
+        box-shadow: inset -14px -14px 23px #600,
+            13px 13px 35px #002,
+            inset 14px 14px 23px #f00;
     }
 
     /* When moving the mouse over the submit button, add a blue color */
@@ -1034,6 +1040,10 @@ img {
         1px -1px 0 red,
         -1px 1px 0 red,
         1px 1px 0 red;
+        background: #f00;
+        box-shadow: inset -14px -14px 23px #f00,
+            13px 13px 35px #002,
+            inset 14px 14px 23px #600;
     }
 
     /* Add a background color and some padding around the form */
@@ -1275,7 +1285,6 @@ img {
         color: #fff0c7;
         margin: 20px 0;
         padding: 8px;
-        background: #700;
         width: 140px;
         border-radius: 30px;
         font-family: 'Federant';
@@ -1288,13 +1297,14 @@ img {
         1px -1px 0 red,
         -1px 1px 0 red,
         1px 1px 0 red;
-        box-shadow: 
-        2px 8px 10px black,
-        -2px 8px 10px black;
         -webkit-transition: background-color 1s ease-out;
         -moz-transition: background-color 1s ease-out;
         -o-transition: background-color 1s ease-out;
         transition: background-color 1s ease-out;
+        background: #f00;
+        box-shadow: inset -14px -14px 23px #600,
+            13px 13px 35px #002,
+            inset 14px 14px 23px #f00;
     }
 
     /* When moving the mouse over the submit button, add a blue color */
@@ -1302,7 +1312,11 @@ img {
         box-shadow: 2px 2px 20px #fff0c7;
         color: antiquewhite;
         border: 1px solid #fff0c7;
-        cursor: pointer;  
+        cursor: pointer; 
+        background: #f00;
+        box-shadow: inset -14px -14px 23px #f00,
+            13px 13px 35px #002,
+            inset 14px 14px 23px #600;
     }
     
     #fname{
