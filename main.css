@@ -501,6 +501,10 @@ img {
     transition: 1s;
     border: 1px solid #fff0c7;
     text-shadow: 1px 1px 0px red, -1px -1px 0px red, -1px 1px 0px red, 1px -1px 0px red;
+    background: #ff3300;
+    box-shadow: inset -14px -14px 23px #661400,
+            13px 13px 35px #002,
+            inset 14px 14px 23px #ff5200;
         
 }
 
