@@ -411,8 +411,8 @@ nav img{
 }
 
 .logo{
-    width: 160px;
-    margin: -28px 0 12px 45px;
+    width: 260px;
+    margin: -28px 0 12px 30px;
     -webkit-transition: width 2s, height 2s, 
     -webkit-transform 1.5s; /* Safari */
     transition: width 2s, height 2s, transform 1.5s;
@@ -525,17 +525,12 @@ img {
         font-size: 14px;
         padding: 5px 15px;
         border-radius: 15px;
-        margin: 30px 12px;
+        margin: 30px 5px;
     }
     
     .sidenav .closebtn {
         margin: 15px;
         padding: 42px 23px 28px 22px;
-    }
-    
-    .logo{
-        margin: -10px 0 0 12px;
-        width: 120px;
     }
     
     p{
@@ -715,7 +710,7 @@ img {
 
     .logo{
         float: left;
-        width: 130px;
+        width: 210px;
         margin: -15px 0 0 40px;
     }
     
@@ -816,9 +811,9 @@ img {
     }
     
     .logo{
-        max-width: 100px;
+        max-width: 110px;
         filter: drop-shadow(0px 0px 2px #c00);
-        margin: -24px 0 0 10px;
+        margin: -10px 0 0 0px;
     }
     
     nav{
@@ -838,7 +833,7 @@ img {
         width: 95px;
         position: absolute; 
         top: 25px;
-        left: 44%;
+        left: 45%;
         border: 1px solid #fff0c7;
         border-radius: 20px;
         filter: drop-shadow(0px 0px 1px #f00);
