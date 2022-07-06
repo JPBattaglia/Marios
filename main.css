@@ -416,7 +416,7 @@ nav img{
     -webkit-transition: width 2s, height 2s, 
     -webkit-transform 1.5s; /* Safari */
     transition: width 2s, height 2s, transform 1.5s;
-    filter: drop-shadow(0px 0px 5px #c00);
+    filter: drop-shadow(0px 0px 3px #fff0c7);
 }
 
 .logo:hover{
@@ -812,7 +812,7 @@ img {
     
     .logo{
         max-width: 110px;
-        filter: drop-shadow(0px 0px 2px #c00);
+        filter: drop-shadow(0px 0px 2px #fff0c7);
         margin: -24px 0 0 10px;
     }
     
