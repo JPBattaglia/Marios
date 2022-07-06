@@ -375,7 +375,7 @@ nav{
     height: 150px;
     background: #d00000;
     box-shadow: 
-            inset 21px 21px 34px #400000,
+            inset 21px 21px 34px #600000,
             inset -21px -21px 34px #d00000;
     border: 8px double #000000;
     border-radius: 20px;
@@ -500,11 +500,11 @@ img {
     color: white;
     transition: 1s;
     border: 1px solid #fff0c7;
-    text-shadow: 1px 1px 0px red, -1px -1px 0px red, -1px 1px 0px red, 1px -1px 0px red;
-    background: #ff3300;
-    box-shadow: inset -14px -14px 23px #661400,
+    text-shadow: 1px 1px 0px black, -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black;
+    background: #ff432e;
+    box-shadow: inset -5px -5px 23px #500,
             10px 10px 35px #002,
-            inset 14px 14px 23px #ff5200;
+            inset 5px 5px 23px #ff513d;
         
 }
 
