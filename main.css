@@ -193,7 +193,8 @@ body{
 
 
 h4:hover{
-    background: #900;
+    transition: 1s;
+    background: #600;
     box-shadow: 1px 1px 25px #fff;
     color: #fff0c7;
     text-shadow:
@@ -250,6 +251,7 @@ h3{
 }
 
 h4{
+    transition: 1s;
     z-index: 999999;
     position: absolute; 
     top: 200px;
