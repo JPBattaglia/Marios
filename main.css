@@ -411,8 +411,8 @@ nav img{
 }
 
 .logo{
-    width: 260px;
-    margin: -28px 0 12px 30px;
+    width: 205px;
+    margin: -35px 0 12px 50px;
     -webkit-transition: width 2s, height 2s, 
     -webkit-transform 1.5s; /* Safari */
     transition: width 2s, height 2s, transform 1.5s;
@@ -710,8 +710,8 @@ img {
 
     .logo{
         float: left;
-        width: 210px;
-        margin: -15px 0 0 40px;
+        width: 160px;
+        margin: -22px 0 0 40px;
     }
     
     nav{
@@ -813,7 +813,7 @@ img {
     .logo{
         max-width: 110px;
         filter: drop-shadow(0px 0px 2px #c00);
-        margin: -10px 0 0 0px;
+        margin: -24px 0 0 10px;
     }
     
     nav{
@@ -833,7 +833,7 @@ img {
         width: 95px;
         position: absolute; 
         top: 25px;
-        left: 45%;
+        left: 46%;
         border: 1px solid #fff0c7;
         border-radius: 20px;
         filter: drop-shadow(0px 0px 1px #f00);
