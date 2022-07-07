@@ -13,6 +13,16 @@ body{
     background: #000;
 }
 
+
+
+
+
+
+
+
+
+
+
 .cb-slideshow,
 .cb-slideshow:after { 
     position: fixed;
@@ -815,7 +825,7 @@ img {
     .logo{
         max-width: 140px;
         filter: drop-shadow(1px 1px 3px #f00);
-        margin: -20px 0 0 5px;
+        margin: -20px 0 0 -6px;
     }
     
     nav{
@@ -830,12 +840,12 @@ img {
     
     h4{
         z-index: 0;
-        font-size: 16px;
-        padding: 4px 4px;
-        width: 95px;
+        font-size: 14px;
+        padding: 2px;
+        width: 80px;
         position: absolute; 
         top: 25px;
-        left: 50%;
+        left: 51%;
         border: 1px solid #fff0c7;
         border-radius: 20px;
         filter: drop-shadow(0px 0px 0px #f00);
