@@ -43,11 +43,12 @@ body{
 }
 
 ul,
-ul li { list-style-type: none; padding: 0; margin:  0; float: left;}
+ul li { list-style-type: none; padding: 0; margin: 0; float: left;}
 
-.sub-menu {
-  background: transparent;
+ul li:nth-child(2){
+    margin: 20px 0;
 }
+
 
 .cb-slideshow,
 .cb-slideshow:after { 
@@ -551,6 +552,14 @@ img {
 @media (max-width: 1000px) and (min-width: 701px){
      #rotate, .mobile, .navicon, .mobiletype, #togo{
         display: none;
+    }
+    
+    .sub-menu{
+        margin: 5px 0 0 -5px;
+    }
+    
+    ul li:nth-child(2){
+        margin: 5px 0;
     }
     
     .desknav{
@@ -1182,6 +1191,14 @@ img {
     
     .mobile, .mobiletype, #togo{
         display: none;
+    }
+    
+    .sub-menu{
+        margin: 15px 0 0 -8px;
+    }
+    
+    ul li:nth-child(2){
+        margin: 15px 0;
     }
     
     .logo{
