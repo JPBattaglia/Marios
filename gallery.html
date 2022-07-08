@@ -36,6 +36,20 @@
     
     <body id="animated-example" class="animated fadeOut">
         
+        <script>
+  
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+           
+            document.getElementById("scrollup").style.display = "none";
+                }
+            }
+
+        </script>
+        
         <ul class="cb-slideshow">
 	<li>
 		<span>Image 01</span>
@@ -114,6 +128,22 @@
                     
         </nav>
         
+        <div data-aos="fade-in" data-aos-duration="2800" data-aos-delay="2500" data-aos-anchor-placement="top-bottom" id="scrollup">
+        
+            <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </div>
+
+            <div class="arrows">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </div>
+            
+        </div>
+        
         <div class="about">
             
         
@@ -121,6 +151,7 @@
         
         
         </div>
+
         
         <br><br><br>
         <br><br><br>

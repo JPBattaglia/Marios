@@ -13,6 +13,63 @@ body{
     background: #000;
 }
 
+.animated {
+    background-color: #100;
+    background-position: left top;
+    margin-bottom: 30px;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.arrow{
+    position: absolute;
+    top: 97%;
+    left: 69%;
+    transform: translate(-50%,-50%);
+}
+
+.arrows{
+    position: absolute;
+    top: 97%;
+    left: 31%;
+    transform: translate(-50%,-50%);
+}
+
+.arrow span, .arrows span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border-bottom: 5px solid #f00;
+    border-right: 5px solid #f00;
+    transform: rotate(45deg);
+    margin: -15px;
+    animation: animate 7.5s infinite;
+}
+.arrow span:nth-child(2), .arrows span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3), .arrows span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+
 #contact{
     text-align: center;
 }
