@@ -419,12 +419,6 @@ nav{
     margin-bottom: 50px;
     width: 95%;
     height: 150px;
-    background: #c00000;
-    box-shadow: 
-            inset 21px 21px 34px #400000,
-            inset -21px -21px 34px #a00000;
-    border: 8px double #000000;
-    border-radius: 20px;
     text-align: center;
 }
 
@@ -543,19 +537,15 @@ img {
     transition: 1s;
     border: 1px solid #fff0c7;
     text-shadow: 1px 1px 0px black, -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black;
-    background: #ff432e;
-    box-shadow: inset -5px -5px 23px #500,
-            10px 10px 35px #002,
-            inset 5px 5px 23px #ff513d;
-        
+    background: black;
 }
 
 .desktop a:hover{
     color: #fff;
-    background: #f00;
-    box-shadow: inset -5px -5px 23px #700,
-            10px 10px 35px #800,
-            inset 5px 5px 23px #300;
+    background: #ff432e;
+    box-shadow: inset -5px -5px 23px #500,
+            10px 10px 35px #002,
+            inset 5px 5px 23px #ff513d;
 }
 
 .sub-menu li a{
@@ -807,9 +797,6 @@ img {
         margin: 17px auto 45px;      
         width: 96%;
         height: 130px;
-        border: 8px double black;
-        border-radius: 15px;
-        background-size: 100% 5%;
     }
     
     .navicon{
@@ -914,9 +901,6 @@ img {
         margin: 11px auto 30px;
         padding: 10px 12px;
         height: 100px;
-        border: 8px double black;
-        border-radius: 14px;
-        background-size: 100% 5%;
     }
     
     h4{
