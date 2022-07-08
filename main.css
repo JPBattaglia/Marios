@@ -883,7 +883,6 @@ img {
         display: flex;
         flex-direction: column;
         flex-basis: 100%;
-        flex: 1;
         border: 3px double #fff0c7;
         border-radius: 10px;
     }
