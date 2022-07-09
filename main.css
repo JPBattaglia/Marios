@@ -15,14 +15,14 @@ body{
 
 .arrow{
     position: absolute;
-    top: 97%;
+    top: 90%;
     left: 69%;
     transform: translate(-50%,-50%);
 }
 
 .arrows{
     position: absolute;
-    top: 97%;
+    top: 90%;
     left: 31%;
     transform: translate(-50%,-50%);
 }
@@ -34,7 +34,7 @@ body{
     border-radius: 5px;
     border-radius: 5px;
     border-bottom: 5px solid #f00;
-    border-right: 5px solid #f00;
+    border-right: 5px solid #b00;
     transform: rotate(45deg);
     margin: -15px;
     animation: animate 7.5s infinite;
@@ -593,7 +593,7 @@ img {
         background: url(MariosStorefront.png) 20% 5%;
         height: 450px;
         width: 80%;
-        margin: 150px auto;
+        margin: 100px auto;
         border: 3px double red;
         border-radius: 10px;
     }
