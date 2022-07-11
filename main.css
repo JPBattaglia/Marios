@@ -916,6 +916,12 @@ img {
         display: none;
     }
     
+    #rotate{
+        width: 50px;
+        float: left;
+        margin-left: 15%;
+    }
+    
     .about h2{
         margin-top: 45%;
 
