@@ -13,6 +13,11 @@ body{
     background: #000;
 }
 
+#site{
+    max-width: 1500px;
+    margin: auto;
+}
+
 .arrow{
     position: absolute;
     top: 90%;
