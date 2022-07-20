@@ -67,6 +67,7 @@ body{
 
 #contact{
     text-align: center;
+    margin: auto;
 }
 
 .sub-menu-parent { 
@@ -331,14 +332,12 @@ h3{
 }
 
 h4{
-    text-align: center;
     transition: 1s;
     z-index: 999999;
-    position: absolute; 
-    top: 915px;
-    left: 44%;
+    position: absolute;
+    left: 45%;
     font-weight: bolder;
-    margin: 20px auto;
+    margin: -65px auto;
     color: #fff;
     padding: 4px 6px;
     width: 155px;
@@ -685,6 +684,7 @@ img {
         background: #300;
         padding: 4px 8px;
         width: 160px;
+        left: 44%;
         position: absolute; 
         top: 900px;
         margin: auto;
@@ -1279,7 +1279,7 @@ img {
     }
     
     h4{
-        left: 42%;
+        left: 44%;
         width: 160px;
         background: #300;
     }
