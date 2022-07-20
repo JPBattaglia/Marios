@@ -137,7 +137,7 @@ ul li:nth-child(2){
     background-repeat: none;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 40s linear infinite 0s; 
+    animation: imageAnimation 50s linear infinite 0s; 
 }
 
 .cb-slideshow li:nth-child(1) span { 
