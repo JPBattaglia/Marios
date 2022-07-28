@@ -19,7 +19,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("TempClose.jpg");
+    background: url("SITEUNDERMAINTENANCE.png");
     background-size: 33%;
     z-index: 9999999999;
 }
@@ -931,6 +931,17 @@ img {
     .desktop, .desktoptype, #contact{
         display: none;
     }
+    
+    .overlay {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("SITEUNDERMAINTENANCE.png");
+    background-size: 50%;
+    z-index: 9999999999;
+}
     
     #rotate{
         width: 50px;
