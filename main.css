@@ -51,8 +51,8 @@ body{
     height: 30px;
     border-radius: 5px;
     border-radius: 5px;
-    border-bottom: 5px solid #f00;
-    border-right: 5px solid #b00;
+    border-bottom: 5px solid #ffc800;
+    border-right: 5px solid #ffeb7a;
     transform: rotate(45deg);
     margin: -15px;
     animation: animate 7.5s infinite;
