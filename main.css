@@ -34,6 +34,7 @@ body{
     top: 90%;
     left: 69%;
     transform: translate(-50%,-50%);
+    z-index: 999;
 }
 
 .arrows{
@@ -41,6 +42,7 @@ body{
     top: 90%;
     left: 31%;
     transform: translate(-50%,-50%);
+    z-index: 999;
 }
 
 .arrow span, .arrows span{
