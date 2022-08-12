@@ -611,7 +611,7 @@ img {
         height: 100%;
         width: 80%;
         margin: 100px auto;
-        border: 3px double #f00;
+        border: 2px double #c00;
         border-radius: 10px;
     }
 
@@ -628,7 +628,7 @@ img {
 .about h6{
     font-size: 70px;
     margin: 20px auto 35px;
-    border-bottom: 2px solid #f00;
+    border-bottom: 1px solid #c00;
     width: 370px;
 }
 
@@ -976,7 +976,6 @@ footer{
         font-size: 60px;
         text-align: center;
         margin-bottom: -10px;
-        border-bottom: 2px solid #f00;
         width: 350px;
 ;
     }
