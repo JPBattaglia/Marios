@@ -628,7 +628,7 @@ img {
 .about h6{
     font-size: 70px;
     margin: 20px auto 35px;
-    border-bottom: 2px solid #f4ff61;
+    border-bottom: 2px solid #f00;
     width: 370px;
 }
 
@@ -1036,7 +1036,6 @@ footer{
         font-size: 50px;
         width: 260px;
         text-align: center;
-        border-bottom: 2px solid #f4ff61;
     }
     
     .logo{
