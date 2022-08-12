@@ -632,6 +632,19 @@ img {
     width: 370px;
 }
 
+.first-letter{
+    font-size: 125px;
+    float:left;
+    font-family: 'Great Vibes';
+    line-height: 80px;
+    margin-top:  15px;
+    padding-right: 25px;
+    padding-left: 3px;
+    color: #fff0c7;
+    font-weight: 100;
+
+}
+
 footer{
         border-top: 1px solid #fff0c7;
         margin: 150px 0 10px;
@@ -1020,7 +1033,7 @@ footer{
     .about{
         width: 90%;
         background: linear-gradient(to left, #100, #200, #300, #200, #100);
-        width: 90%
+        margin: auto;
     }
     
     .about h2{
@@ -1035,6 +1048,12 @@ footer{
         font-size: 50px;
         width: 260px;
         text-align: center;
+    }
+    
+    .first-letter{
+        font-size: 70px;
+        margin: 15px -10px 0px;
+        line-height: 50px;
     }
     
     .logo{
