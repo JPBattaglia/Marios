@@ -607,18 +607,22 @@ img {
 }
 
 .about{
-        background: url(MariosStorefront.png);
+       background: linear-gradient(to left, #100, #200, #300, #200, #100);
         height: 100%;
         width: 80%;
         margin: 100px auto;
-        border: 3px double red;
+        border: 3px double #fff0c7;
         border-radius: 10px;
     }
 
 .about h2{
-    margin: 30px 5%;
-    font-size: 24px;
+    margin: 50px 10%;
+    font-size: 22px;
     text-align: left;
+    color: #fff0c7;
+    text-shadow: none;
+    font-family: 'lexend deca';
+    line-height: 2;
 }
 
 .about h6{
@@ -834,9 +838,6 @@ footer{
 
     /* Add a background color and some padding around the form */
     .container{
-        background: url(Vines.png);
-        background-size:100% 100%;
-        background-repeat: no-repeat;
         max-width: 95%;
         margin: auto;
     }
@@ -966,6 +967,11 @@ footer{
         width: 200px;
     }
     
+    .about{
+        background: linear-gradient(to left, #100, #200, #300, #200, #100);
+        width: 90%
+    }
+    
     .about h6{
         font-size: 60px;
         text-align: center;
@@ -976,8 +982,12 @@ footer{
     }
     
     .about h2{
-        font-size: 22px;
-        margin-top: 40px;
+        font-family: 'Kanit';
+        line-height: 2;
+        font-size: 24px;
+        margin: 40px 100px;
+        color: #fff0c7;
+        text-shadow: none;
     }
 }
 
@@ -1010,13 +1020,16 @@ footer{
     
     .about{
         width: 90%;
-        background-size: 100% 100%;
+        background: linear-gradient(to left, #100, #200, #300, #200, #100);
+        width: 90%
     }
     
     .about h2{
         font-size: 18px;
         margin: 30px 25px;
-        line-height: 1.4;
+        line-height: 2;
+        text-shadow: none;
+        color: #fff0c7;
     }
     
     .about h6{
