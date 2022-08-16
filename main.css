@@ -1038,10 +1038,11 @@ footer{
     .about{
         width: 90%;
         background: linear-gradient(to left, #100, #200, #300, #200, #100);
-        margin: auto;
+        margin: 75px auto;
     }
     
     .about h2{
+        width: 90%;
         font-size: 18px;
         margin: 30px 25px;
         line-height: 2;
@@ -1180,7 +1181,7 @@ footer{
     
     
     #sociallink img{
-        width: 25px;
+        width: 35px;
         margin: 0px 5px;
         filter: drop-shadow(2px 1px 1px #000);
     }
