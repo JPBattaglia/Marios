@@ -655,7 +655,7 @@ footer{
         color: red;
         font-size: 22px;
         font-family: "Kanit";
-        background: #500;
+        background: linear-gradient(to left, #200, #500, #200);
         padding-top: 50px;
         color: #fff0c7;
     }
@@ -663,6 +663,11 @@ footer{
     #sociallink img{
         margin: 0px;
     }
+
+    #sociallink:hover{
+        filter: drop-shadow(1px 1px 1px black);
+    }
+    
 
 /*=======================================*/
 /*=======================================*/
@@ -878,7 +883,7 @@ footer{
         color: red;
         font-size: 22px;
         font-family: "Kanit";
-        background: #500;
+        background: linear-gradient(to left, #200, #500, #200);
         padding-top: 50px;
         color: #fff0c7;
     }
@@ -1173,14 +1178,6 @@ footer{
         color: #f1ffc4;;
     }
     
-    p{
-        color:#fff;
-        font-size: 12px;
-        width: 225px;
-        margin: auto;
-        font-family: serif;
-        text-align: center;
-    }
     
     #sociallink img{
         width: 25px;
@@ -1320,12 +1317,11 @@ footer{
     }
 
     footer{
-        margin-bottom: -10px;
+        margin: 20px 0 0 0;
         float: left;
         width: 100%;
         text-align: center;
         width: 100%;
-        font-weight: bolder;
         font-size: 12px;
         color: #fff0c7;
     }
@@ -1480,10 +1476,6 @@ footer{
         width: 50px;
         margin: 0px 30px;
         filter: drop-shadow(2px 1px 1px #000);
-    }
-    
-    #sociallink:hover{
-        filter: drop-shadow(-2px -1px 3px red);
     }
     
     #info{
