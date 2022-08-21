@@ -1042,9 +1042,9 @@ footer{
     }
     
     .about h2{
-        width: 90%;
-        font-size: 18px;
-        margin: 30px 25px;
+        width: 86%;
+        font-size: 16px;
+        margin: 30px;
         line-height: 2;
         text-shadow: none;
         color: #fff0c7;
@@ -1058,7 +1058,7 @@ footer{
     
     .first-letter{
         font-size: 70px;
-        margin: 15px -10px 0px;
+        margin: 12px -10px 0px;
         line-height: 50px;
     }
     
