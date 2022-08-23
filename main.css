@@ -1153,8 +1153,8 @@ footer{
     }
     
     #menumade {
-        padding: 10px 0;
-        width: 55px;
+        padding: -5px 0;
+        width: 50px;
     }
     
     #map{
@@ -1180,7 +1180,7 @@ footer{
     
     #sociallink img{
         width: 35px;
-        margin: 0px 5px;
+        margin: -30px 5px;
         filter: drop-shadow(2px 1px 1px #000);
     }
     
@@ -1291,14 +1291,13 @@ footer{
 
     /* Add a background color and some padding around the form */
     .container{
-        width: 850px;
         max-width: 98%;
         margin: auto;
     }
 
     #form {
         text-align: center;
-        margin-bottom: -50px;
+        margin-bottom: 75px;
     }
     
     .top, .bottom, .center{
@@ -1316,6 +1315,8 @@ footer{
     }
 
     footer{
+        bottom: 0;
+        padding-top: 30px;
         margin: 20px 0 0 0;
         float: left;
         width: 100%;
