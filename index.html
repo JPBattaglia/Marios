@@ -35,6 +35,7 @@
     </head>
     
     <body id="animated-example" class="animated fadeOut">
+        <div id="preloader">Loading</div>
         
         <div id="site">
         
@@ -191,6 +192,14 @@
     AOS.init();
   </script>
         </div>
+        
+        <script>
+        
+        var loader = document.getElementById("preloader");
+        
+        window.addEventListener("load", function(){loader.style.display = "none"})
+        
+    </script>
         
       <!-- <div data-aos="zoom-out-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" style="opacity: .7;" class="overlay"></div> -->
     </body>

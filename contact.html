@@ -36,6 +36,8 @@
     
     <body id="animated-example" class="animated fadeOut">
         
+        <div id="preloader">Loading</div>
+        
         <div id="site">
         
         <ul class="cb-slideshow">
@@ -167,6 +169,14 @@
             <a href="https://menu-made.com/"><img id="menumade" src="MENULOGO.jpg"></a> 
             
         </footer>
+            
+            <script>
+        
+        var loader = document.getElementById("preloader");
+        
+        window.addEventListener("load", function(){loader.style.display = "none"})
+        
+    </script>
         
         <script         
             src="https://unpkg.com/aos@next/dist/aos.js">

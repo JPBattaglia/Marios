@@ -669,7 +669,13 @@ footer{
     }
 
     #preloader{
-        background: #000 url(menugif.gif) no-repeat center center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #f00;
+        padding-top: 25%;
+        font-family: 'federant' ;
+        background: #191513 url(Preloader.gif) no-repeat center center;
         background-size: 20%;
         height: 100%;
         width: 100%;
