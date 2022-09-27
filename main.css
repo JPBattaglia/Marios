@@ -683,6 +683,12 @@ footer{
         z-index: 9999999999999999;
         top: 0;
     }
+
+    #preloader p{
+        padding-top: 50px;
+        margin: 50%;
+        color: #f00;
+    }
     
 
 /*=======================================*/
@@ -1414,6 +1420,16 @@ footer{
         text-decoration: none;
         font-size: 16px;
         color: #fff0c7;
+    }
+    
+    #preloader{
+        background: #191513 url(Preloader.gif) no-repeat 40% 40%;
+        background-size: 20%;
+    }
+    
+    #preloader p{
+        margin: 37%;
+        color: #f00;
     }
 }
 
