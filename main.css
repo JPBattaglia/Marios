@@ -544,7 +544,9 @@ img {
 
 .menu img{
     width: 80%;
-    margin: 0 auto;
+    margin: 5px auto;
+    border: 6px double #f00;
+    border-radius: 10px;
 }
 
 .center{
