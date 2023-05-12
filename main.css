@@ -315,7 +315,7 @@ h3:hover{
 }
 
 h2{
-    font-size: 35px;
+    font-size: 45px;
     font-family: 'Kanit', serif;
     font-weight: bolder;
     text-align: center;
@@ -374,7 +374,7 @@ h5{
 
 h6{
     font-family: Corinthia;
-    font-size: 146px;
+    font-size: 155px;
     color: #fff;
     text-shadow:
     0 0 7px #eaff00,
@@ -572,6 +572,10 @@ img {
     float: right;
     font-size: 20px;
     margin: 50px;
+}
+
+.desktop img{
+    width: 55px;
 }
 
 
@@ -783,6 +787,10 @@ footer{
         border: 8px double #775;
     }
     
+    h2{
+        font-size: 40px;
+    }
+    
     h4{
         font-size: 20px;
         background: #300;
@@ -793,6 +801,11 @@ footer{
         top: 900px;
         margin: auto;
         z-index: 99999999;
+    }
+    
+    h6{
+        font-size: 120px;
+        width: 320px;
     }
     
     
@@ -1721,7 +1734,6 @@ footer{
     .desktop a{
         margin-right: 20px;
     }
-    
     
 }
 
