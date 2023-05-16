@@ -613,7 +613,7 @@ img {
 }
 
 .about{
-       background: linear-gradient(to left, #100, #200, #300, #200, #100);
+       background: linear-gradient(to left, #200, #300, #400, #300, #200);
         height: 100%;
         width: 80%;
         margin: 100px auto;
@@ -1037,7 +1037,7 @@ footer{
     }
     
     .about{
-        background: linear-gradient(to left, #100, #200, #300, #200, #100);
+        background: linear-gradient(to left, #200, #300, #400, #300, #200);
         width: 90%
     }
     
@@ -1087,7 +1087,7 @@ footer{
     
     .about{
         width: 90%;
-        background: linear-gradient(to left, #100, #200, #300, #200, #100);
+        background: linear-gradient(to left, #200, #300, #400, #300, #200);
         margin: 75px auto;
     }
     
