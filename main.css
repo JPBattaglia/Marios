@@ -354,7 +354,7 @@ h4{
     color: #fff;
     padding: 4px 6px;
     width: 155px;
-    border-radius: 30px;
+    border-radius: 10px;
     font-family: 'Kanit';     
     text-decoration: none;
     border: 1px solid #fff;
@@ -586,7 +586,7 @@ img {
     text-decoration: none;
     padding: 8px 30px;
     border: 1px solid #c99300;
-    border-radius: 20px; 
+    border-radius: 10px; 
     color: white;
     transition: 1s;
     border: 1px solid #fff0c7;
@@ -732,7 +732,7 @@ footer{
     .desktop a{
         font-size: 14px;
         padding: 5px 15px;
-        border-radius: 15px;
+        border-radius: 8px;
         margin: 30px 5px;
     }
     
@@ -1439,7 +1439,7 @@ footer{
         width: 80px;
         margin: 20px 50%;
         border: 1px solid #ff0;
-        border-radius: 15px;
+        border-radius: 10px;
         padding: 2px;
         
     }
