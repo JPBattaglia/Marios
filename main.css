@@ -141,6 +141,10 @@ body{
     background: #000;
 }
 
+ul, ul li{
+    list-style: none;
+}
+
 .overlay {
     position: fixed;
     top: 0;
