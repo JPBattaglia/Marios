@@ -3,6 +3,134 @@
     outline: none;
     background: none;
    }
+:root {
+  --darkbg: #251d29;
+  --darkt: #ffd1f7;
+  --lightbg: url(Brightbackground.jpg);
+  --lightt: #d43370;
+
+  --toggleHeight: 8em;
+  --toggleWidth: 15em;
+  --toggleBtnRadius: 4em;
+
+  --bgColor--night: #423966;
+  --mooncolor: #d9fbff;
+  --bgColor--day: #9ee3fb;
+}
+body {
+  transition: all 0.2s ease-in-out;
+  background: var(--darkbg);
+  color: var(--darkt);
+  text-align: center;
+}
+
+.light {
+    background: url(BrightBackground.jpg);
+    background-size: 100% 100%;
+
+    
+    .cb-slideshow{
+        display:none;
+    }
+    
+    footer{
+        background: #a00;
+    }
+    
+    .desknav{
+        background: none;
+        border: 2px solid white;
+    }
+    
+    .desktop a{
+    text-transform: uppercase;
+    text-shadow: .5px .5px 1px red, -.5px .5px 1px red, .5px -.5px 1px red, -.5px -.5px 1px red;
+    transition: 500ms;
+    text-decoration: none;
+    color: white;
+    }
+
+    .desktop a:hover{
+    color: gold;
+    text-shadow: .5px .5px 1px black, -.5px .5px 1px black, .5px -.5px 1px black, -.5px -.5px 1px black;
+    transition: 500ms;
+    }
+    
+    .logo{
+        filter:drop-shadow(.5px .5px 2px white)
+            drop-shadow(-.5px .5px 2px white)
+            drop-shadow(.5px -.5px 2px white)
+            drop-shadow(-.5px -.5px 2px white);
+    }
+    
+    
+    color: var(--lightt); 
+    
+    input[type=submit]{
+    color: white;
+    border: .5px solid white;
+    background: lime;    
+    box-shadow: inset 4px 4px 25px #040, inset -4px -4px 25px #040;
+    transition: 1s;
+    }
+    
+    .about{
+        background: #a00;
+        border: 5px double white
+    }
+    
+    .about h6{
+        border-bottom: 4px double white;
+    }
+}
+
+.tdnn {
+  cursor: pointer;
+  margin: auto;
+  /*change size of toggle with font-size*/
+  font-size: 30%;
+  position: relative;
+  height: var(--toggleHeight);
+  width: var(--toggleWidth);
+  border: 1px solid #fff;    
+  border-radius: var(--toggleHeight);
+  transition: all 500ms ease-in-out;
+  background: var(--bgColor--night);
+}
+.day {
+  background: orangered;
+}
+.moon {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  transition: all 400ms ease-in-out;
+  top: 1.7em;
+  left: 2em;
+  transform: rotate(-75deg);
+  width: var(--toggleBtnRadius);
+  height: var(--toggleBtnRadius);
+  background: var(--bgColor--night);
+  box-shadow: 1em 1em 0 0em var(--mooncolor) inset,
+    rgba(255, 255, 255, 0.1) 0em -7em 0 -4.5em,
+    rgba(255, 255, 255, 0.1) 3em 7em 0 -4.5em,
+    rgba(255, 255, 255, 0.1) 2em 13em 0 -4em,
+    rgba(255, 255, 255, 0.1) 6em 2em 0 -4.1em,
+    rgba(255, 255, 255, 0.1) 8em 8em 0 -4.5em,
+    rgba(255, 255, 255, 0.1) 6em 13em 0 -4.5em,
+    rgba(255, 255, 255, 0.1) -4em 7em 0 -4.5em,
+    rgba(255, 255, 255, 0.1) -1em 10em 0 -4.5em;
+}
+.sun {
+  top: .5;
+  left: 9em;
+  transform: rotate(0deg);
+  width: 4em;
+  height: 4em;
+  background: #fff;
+}
+
+
 
 html{
     min-height:100%;
@@ -110,18 +238,6 @@ body{
   z-index: 1;
   transform: translateY(0%);
   transition-delay: 0s, 0s, .3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
-}
-
-ul,
-ul li { list-style-type: none; padding: 0; margin: 0; float: left;}
-
-
-ul li{
-    margin: 20px 0;
-}
-
-ul li:nth-child(2){
-    margin: -15px 0;
 }
 
 .cb-slideshow,
@@ -354,14 +470,14 @@ h4{
     color: #fff;
     padding: 4px 6px;
     width: 155px;
-    border-radius: 10px;
+    border-radius: 20px;
     font-family: 'Kanit';     
     text-decoration: none;
     border: 1px solid #fff;
     box-shadow: -2px 4px 20px #000;
     background: #f00;
     box-shadow: inset -14px -14px 23px #600,
-            13px 13px 35px #002,
+            4px 8px 15px #002,
             inset 14px 14px 23px #f00;
 }
 
@@ -499,12 +615,12 @@ nav img{
 }
 
 .logo{
-    width: 225px;
+    width: 250px;
     margin: -15px 0 12px 50px;
     -webkit-transition: width 2s, height 2s, 
     -webkit-transform 1.5s; /* Safari */
     transition: width 2s, height 2s, transform 1.5s;
-    filter: drop-shadow(1px 1px 3px #800);
+    filter: drop-shadow(1px 1px 1px #000);
 }
 
 .logo:hover{
@@ -568,10 +684,17 @@ img {
 }
 
 .desknav{
+    display: flex;
+    align-items: center;
     z-index: 999999;
     float: right;
     font-size: 20px;
     margin: 50px;
+    background: black;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid red;
+    padding: 30px 50px;
 }
 
 .desktop img{
@@ -585,21 +708,14 @@ img {
     margin: 20px;
     text-decoration: none;
     padding: 8px 30px;
-    border: 1px solid #c99300;
-    border-radius: 10px; 
-    color: white;
+    color: antiquewhite;
     transition: 1s;
-    border: 1px solid #fff0c7;
-    text-shadow: 1px 1px 0px black, -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black;
-    background: black;
+    font-weight: bold;
 }
 
 .desktop a:hover{
-    color: #fff;
-    background: #f00;
-    box-shadow: inset -5px -5px 23px #000,
-            1px 1px 25px #c99300,
-            inset 5px 5px 23px #f00;
+    color: white;
+    text-shadow: .5px .5px 0px white, -.5px .5px 0px white, .5px -.5px 0px white, -.5px -.5px 0px white;
 }
 
 .sub-menu li a{
@@ -725,15 +841,15 @@ footer{
     
     
     .desknav{
-        margin: 40px 30px 0 0;
-        padding: 0px;
+        margin: 40px 0px 0 0;
+        padding: 20px 20px;
     }
     
     .desktop a{
-        font-size: 14px;
-        padding: 5px 15px;
-        border-radius: 8px;
-        margin: 30px 5px;
+        font-size: 12px;
+        padding: 8px 13px;
+        border-radius: 11px;
+        margin: 30px 2px;
     }
     
     .sub-menu{
@@ -1055,6 +1171,10 @@ footer{
         margin: 40px 100px;
         color: #fff0c7;
         text-shadow: none;
+    }
+    
+    #contact h4{
+        margin-top: 50px;
     }
 }
 
@@ -1433,15 +1553,13 @@ footer{
     
     #delivery{
         background: #f00;
-        box-shadow: inset -14px -14px 23px #600,
-            13px 13px 35px #002,
-            inset 14px 14px 23px #f00;
+        box-shadow: inset -4px -4px 23px #600,
+            inset 4px 4px 23px #600;
         width: 80px;
-        margin: 20px 50%;
+        margin: 29px 50%;
         border: 1px solid #ff0;
-        border-radius: 10px;
+        border-radius: 14px;
         padding: 2px;
-        
     }
     
     #delivery a{
@@ -1512,8 +1630,8 @@ footer{
     
     .desknav a{
         font-size: 18px;
-        padding: 8px 20px;
-        margin: 0 14px;
+        padding: 8px 18px;
+        margin: 0 12px;
     }
     
     .sub-menu li{
@@ -1525,12 +1643,24 @@ footer{
     }
 }
 
+
 /*=======================================*/
 /*=======================================*/
 
 @media (min-width: 1000px){
      #rotate, .navicon, .mobile, .mobiletype, #togo{
         display: none;
+    }
+    
+    .desknav {
+        margin-right: 20px;
+        padding: 30px 12px;
+    }
+    
+    .desknav a{
+        margin: 0 8px;
+        padding: 8px 20px;
+        font-size: 17px;
     }
     
     #sociallink img{
@@ -1708,6 +1838,22 @@ footer{
 /*=======================================*/
 /*=======================================*/
 
+@media (max-width: 1300px) and (min-width: 1200px){
+    
+    .desknav a{
+        margin: 0 15px;
+        padding: 8px 20px;
+    }
+    
+    .desknav{
+        padding: 30px 30px;
+    }
+}
+
+
+/*=======================================*/
+/*=======================================*/
+
 @media (max-width: 300px){
     
     h4{
@@ -1728,13 +1874,31 @@ footer{
 @media (max-width: 1001px) and (min-width: 800px){
     
     .desknav {
-        margin-right: 50px;
-    }
-    
-    .desktop a{
         margin-right: 20px;
     }
     
+    .desktop a{
+        padding: 10px 15px;
+        margin-right: 15px;
+        
+    }
+    
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (min-width: 1300px){
+    .desknav {
+        margin-right: 0px;
+        padding: 30px 20px;
+    }
+    
+    .desktop a{
+        margin-right: 30px;
+        padding: 10px 25px;
+    }
+
 }
 
 
