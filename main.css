@@ -9,12 +9,12 @@
   --lightbg: url(Brightbackground.jpg);
   --lightt: #d43370;
 
-  --toggleHeight: 8em;
+  --toggleHeight: 7em;
   --toggleWidth: 15em;
   --toggleBtnRadius: 4em;
 
-  --bgColor--night: #423966;
-  --mooncolor: #d9fbff;
+  --bgColor--night: #016;
+  --mooncolor: #8ff;
   --bgColor--day: #9ee3fb;
 }
 body {
@@ -104,13 +104,13 @@ body {
   display: block;
   border-radius: 50%;
   transition: all 400ms ease-in-out;
-  top: 1.7em;
-  left: 2em;
+  top: 1.2em;
+  left: 1.5em;
   transform: rotate(-75deg);
   width: var(--toggleBtnRadius);
   height: var(--toggleBtnRadius);
   background: var(--bgColor--night);
-  box-shadow: 1em 1em 0 0em var(--mooncolor) inset,
+  box-shadow: 1em 1em .9em -.1em var(--mooncolor) inset,
     rgba(255, 255, 255, 0.1) 0em -7em 0 -4.5em,
     rgba(255, 255, 255, 0.1) 3em 7em 0 -4.5em,
     rgba(255, 255, 255, 0.1) 2em 13em 0 -4em,
@@ -121,12 +121,13 @@ body {
     rgba(255, 255, 255, 0.1) -1em 10em 0 -4.5em;
 }
 .sun {
+  border-radius:50%;
+  background: white;
+  box-shadow: 0 0 15px 2px yellow, 0 0 30px 2px yellow;    
   top: .5;
   left: 9em;
-  transform: rotate(0deg);
   width: 4em;
   height: 4em;
-  background: #fff;
 }
 
 
@@ -1824,6 +1825,7 @@ footer{
         width: 100%;
         font-weight: bolder;
         color: #fff0c7;
+        padding-bottom: 20px;
     }
 }
 
