@@ -20,12 +20,11 @@
 body {
   transition: all 0.2s ease-in-out;
   background: var(--darkbg);
-  color: var(--darkt);
   text-align: center;
 }
 
 .light {
-    background: url(BrightBackground.jpg);
+    background: black url(BrightBackground.jpg);
     background-size: 100% 100%;
 
     
