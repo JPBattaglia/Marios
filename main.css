@@ -718,8 +718,7 @@ img {
 }
 
 .desktop a:hover{
-    color: white;
-    text-shadow: .5px .5px 0px white, -.5px .5px 0px white, .5px -.5px 0px white, -.5px -.5px 0px white;
+    color: red;
 }
 
 .sub-menu li a{
