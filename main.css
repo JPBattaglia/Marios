@@ -1632,12 +1632,6 @@ footer{
         border-radius: 10px;
     }
     
-    .desknav a{
-        font-size: 18px;
-        padding: 8px 18px;
-        margin: 0 12px;
-    }
-    
     .sub-menu li{
         margin: 20px 0 0 -12px;
     }
@@ -1663,7 +1657,7 @@ footer{
     
     .desknav a{
         margin: 0 8px;
-        padding: 8px 20px;
+        padding: 8px 18px;
         font-size: 17px;
     }
     
