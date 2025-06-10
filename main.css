@@ -650,7 +650,7 @@ nav img{
 }
 
 .logo:hover{
-    filter: drop-shadow(2px 4px 10px #fff);
+    filter: drop-shadow(0px 0px 15px orangered);
     transition: 1s;
 }
 
