@@ -1,214 +1,243 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html>
     <head>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
         <meta property="og:title" content="Marios Bohemian Cigar Store Cafe" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
         <meta property="og:image" content="https://i.ibb.co/gJbQ4xP/Mario-Thumb.png" />
-	    <meta property="og:image:secure_url" content="https://i.ibb.co/gJbQ4xP/Mario-Thumb.png" />
-        <meta name="keywords" content="Restaurant Bar Cafe Coffee">
+        <meta property="og:image:secure_url" content="https://i.ibb.co/gJbQ4xP/Mario-Thumb.png" />
+        <meta name="keywords" content="Restaurant Bar Cafe Coffee" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>MARIOS BOHEMIAN CAFE</title>
-        <meta name="description" content="Restaurant Cafe With Great Food">
-        <link rel="stylesheet" href="main.css">
-        <link rel="shortcut icon" type="image/png" href="MariosTabIcon.png">
-        <link href="https://fonts.googleapis.com/css?family=Federant|Corinthia|Kaushan+Script|Fugaz+One|Righteous|Lexend+Deca|Kanit|Quintessential" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Restaurant Cafe With Great Food" />
+        <link rel="stylesheet" href="main.css" />
+        <link rel="shortcut icon" type="image/png" href="MariosTabIcon.png" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Federant|Corinthia|Kaushan+Script|Fugaz+One|Righteous|Lexend+Deca|Kanit|Quintessential"
+            rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-197643214-1">
-        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-197643214-1"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-          gtag('config', 'UA-197643214-1');
+            gtag("config", "UA-197643214-1");
         </script>
-
     </head>
 
     <body id="animated-example" class="animated fadeOut">
-
         <div id="preloader"><p>Loading</p></div>
 
         <div id="site">
+            <ul class="cb-slideshow">
+                <li>
+                    <span>Image 01</span>
+                </li>
 
-        <ul class="cb-slideshow">
-	<li>
-		<span>Image 01</span>
-	</li>
+                <li><span>Image 02</span></li>
 
-	<li><span>Image 02</span>
-    </li>
+                <li><span>Image 03</span></li>
 
-	<li><span>Image 03</span>
-    </li>
+                <li><span>Image 04</span></li>
 
-    <li><span>Image 04</span>
-    </li>
+                <li><span>Image 05</span></li>
 
-    <li><span>Image 05</span>
-    </li>
+                <li><span>Image 06</span></li>
+            </ul>
 
-    <li><span>Image 06</span>
-    </li>
-</ul>
+            <script>
+                window.addEventListener("beforeunload", function () {
+                    document.body.classList.add("animate-out");
+                });
+            </script>
 
-        <script>window.addEventListener("beforeunload", function () {
-  document.body.classList.add("animate-out");
-            });</script>
-
-
-
-
-        <nav>
-
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#8855;</a>
-                <a href="index.html">Home</a>
-                <a href="gallery.html">About</a>
-                <a href="menu.html">Menu</a>
-                <a style= "text-decoration: underline; text-underline-position: under;" href="contact.html">Contact</a>
-            </div>
-
-            <span data-aos="slide-right" data-aos-duration="800" data-aos-anchor-placement="top-bottom" style="float:right;margin-top: 10px;cursor:pointer" onclick="openNav()">
-            <img class=navicon src="MariosBurger2.png">
-            </span>
-
-        <script>
-
-
-
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "175px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-        </script>
-
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="top-bottom"><a href="#openModal99"><img class="logo" src="MariosLogo3.png"></a></div>
-
-                <div id="openModal99" class="modalDialog">
-                <div>
-                    <h5>Mario's Bohemian Cigar Store Cafe was established in 1971 and is currently run by Mario's grandchildren Daniella and Dario.
-                    Mario's is at the heart of North Beach offering amazing food, great service and a cozy atmosphere where everyone feels at home. Our espresso beans are from Graffeo right down the street on Columbus!</h5>
-
-		          <a href="#close" title="Close" class="close">&#9747;</a>
-                </div></div>
-
-            <div class="desktop">
-
-                <section data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" class="desknav">
+            <nav>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#8855;</a>
                     <a href="index.html">Home</a>
                     <a href="gallery.html">About</a>
                     <a href="menu.html">Menu</a>
-                    <a style="text-decoration: underline;" href="contact.html">Contact</a>
-                    <a href="https://www.doordash.com/store/mario's-bohemian-cigar-store-cafe-san-francisco-23994167/?utm_campaign=gpa">Deliver</a>
-                </section>
+                    <a style="text-decoration: underline; text-underline-position: under" href="contact.html"
+                        >Contact</a
+                    >
+                </div>
 
-            </div>
+                <span
+                    data-aos="slide-right"
+                    data-aos-duration="800"
+                    data-aos-anchor-placement="top-bottom"
+                    style="float: right; margin-top: 10px; cursor: pointer"
+                    onclick="openNav()">
+                    <img class="navicon" src="MariosBurger2.png" />
+                </span>
 
-        </nav>
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "175px";
+                    }
 
-            <div data-aos="flip-right" data-aos-delay="1000" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" onclick="tdnn()" class="tdnn"> 
-                    <div class="moon">
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    <a href="#openModal99"><img class="logo" src="MariosLogo3.png" /></a>
+                </div>
+
+                <div id="openModal99" class="modalDialog">
+                    <div>
+                        <h5>
+                            Mario's Bohemian Cigar Store Cafe was established in 1971 and is currently run by Mario's
+                            grandchildren Daniella and Dario. Mario's is at the heart of North Beach offering amazing
+                            food, great service and a cozy atmosphere where everyone feels at home. Our espresso beans
+                            are from Graffeo right down the street on Columbus!
+                        </h5>
+
+                        <a href="#close" title="Close" class="close">&#9747;</a>
                     </div>
-                    </div>
+                </div>
 
-                    <script>
+                <div class="desktop">
+                    <section
+                        data-aos="fade-left"
+                        data-aos-duration="1500"
+                        data-aos-anchor-placement="top-bottom"
+                        class="desknav">
+                        <a href="index.html">Home</a>
+                        <a href="gallery.html">About</a>
+                        <a href="menu.html">Menu</a>
+                        <a style="text-decoration: underline" href="contact.html">Contact</a>
+                        <a
+                            href="https://www.doordash.com/store/mario's-bohemian-cigar-store-cafe-san-francisco-23994167/?utm_campaign=gpa"
+                            >Deliver</a
+                        >
+                    </section>
+                </div>
+            </nav>
 
-                        function tdnn() {
-  document.getElementsByClassName("moon")[0].classList.toggle("sun");
-  document.getElementsByClassName("tdnn")[0].classList.toggle("day");
-  document.getElementsByTagName("BODY")[0].classList.toggle("light");
-}
-
-
-                    </script>
-
-        <section id="form">
-
-        <h2 data-aos="zoom-in-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" >Contact Us</h2>
-
-        <div class="container">
-
-            <form action="https://formspree.io/f/mgedjeya"
-  method="POST">
-
-                <input data-aos="zoom-in-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom" type="text" id="fname" name="fname" placeholder="Full Name"><br>
-
-
-                <input data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" type="text" id="email_address" name="email_address" placeholder="Email"><br>
-
-                <select data-aos="zoom-in-up" data-aos-duration="2500" data-aos-anchor-placement="top-bottom" id="service" name="service">
-                 <option value="General">General</option>
-                 <option value="Logo">Large Order</option>
-                 <option value="Icon">Catering</option>
-                 <option value="Flyer">Coffee</option>
-                 <option value="Newsletter">Billing</option>
-                 <option value="Other">Other</option>
-                 </select><br>
-
-                <textarea data-aos="zoom-in-up" data-aos-duration="2700" data-aos-anchor-placement="top-bottom" id="message" name="message" placeholder="Write Something..."></textarea><br>
-
-                <input data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="200" data-aos-anchor-placement="top-bottom" type="submit" value="Submit">
-            </form><br><br><br>
-        </div>
-    </section>
-
-
-
-
-        <div id="number">
-
-            <a style="text-decoration: none;cursor:pointer" href="tel:14153620536"><h3>(415) 362-0536</h3></a><br><br>
-
-        </div>
-
-
-        <footer style="margin-bottom: -25px;">
-
-            <a id="sociallink" href="https://www.facebook.com/mariosbohemian"> <img src="FaceBook.png"></a>
-
-            &copy; Marios Bohemian Cigar Store Cafe 2022
-
-            <a id="sociallink" href="https://www.instagram.com/mariosbohemian/"><img src="Instagram.png"></a><br><br>
-
-
-        </footer>
-
-            <div>
-                <a href="https://menu-made.com/"><img id="menumade" src="MENULOGO.jpg"></a>
+            <div
+                data-aos="flip-right"
+                data-aos-delay="1000"
+                data-aos-duration="1000"
+                data-aos-anchor-placement="top-bottom"
+                onclick="tdnn()"
+                class="tdnn">
+                <div class="moon"></div>
             </div>
-
 
             <script>
+                function tdnn() {
+                    document.getElementsByClassName("moon")[0].classList.toggle("sun");
+                    document.getElementsByClassName("tdnn")[0].classList.toggle("day");
+                    document.getElementsByTagName("BODY")[0].classList.toggle("light");
+                }
+            </script>
 
-        var loader = document.getElementById("preloader");
+            <section id="form">
+                <h2 data-aos="zoom-in-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+                    Contact Us
+                </h2>
 
-        window.addEventListener("load", function(){loader.style.display = "none"})
+                <div class="container">
+                    <form action="https://formspree.io/f/mgedjeya" method="POST">
+                        <input
+                            data-aos="zoom-in-up"
+                            data-aos-duration="1500"
+                            data-aos-anchor-placement="top-bottom"
+                            type="text"
+                            id="fname"
+                            name="fname"
+                            placeholder="Full Name" /><br />
 
-    </script>
+                        <input
+                            data-aos="zoom-in-up"
+                            data-aos-duration="2000"
+                            data-aos-anchor-placement="top-bottom"
+                            type="text"
+                            id="email_address"
+                            name="email_address"
+                            placeholder="Email" /><br />
 
-        <script
-            src="https://unpkg.com/aos@next/dist/aos.js">
-        </script>
+                        <select
+                            data-aos="zoom-in-up"
+                            data-aos-duration="2500"
+                            data-aos-anchor-placement="top-bottom"
+                            id="service"
+                            name="service">
+                            <option value="General">General</option>
+                            <option value="Logo">Large Order</option>
+                            <option value="Icon">Catering</option>
+                            <option value="Flyer">Coffee</option>
+                            <option value="Newsletter">Billing</option>
+                            <option value="Other">Other</option></select
+                        ><br />
 
-  <script>
-    AOS.init();
-  </script>
+                        <textarea
+                            data-aos="zoom-in-up"
+                            data-aos-duration="2700"
+                            data-aos-anchor-placement="top-bottom"
+                            id="message"
+                            name="message"
+                            placeholder="Write Something..."></textarea
+                        ><br />
+
+                        <input
+                            data-aos="zoom-in-up"
+                            data-aos-duration="2000"
+                            data-aos-delay="200"
+                            data-aos-anchor-placement="top-bottom"
+                            type="submit"
+                            value="Submit" />
+                    </form>
+                    <br /><br /><br />
+                </div>
+            </section>
+
+            <div id="number">
+                <a style="text-decoration: none; cursor: pointer" href="tel:14153620536"><h3>(415) 362-0536</h3></a
+                ><br /><br />
+            </div>
+
+            <footer style="margin-bottom: -25px">
+                <a id="sociallink" href="https://www.facebook.com/mariosbohemian"> <img src="FaceBook.png" /></a>
+
+                &copy; Marios Bohemian Cigar Store Cafe 2022
+
+                <a id="sociallink" href="https://www.instagram.com/mariosbohemian/"><img src="Instagram.png" /></a
+                ><br /><br />
+            </footer>
+
+            <div>
+                <a href="https://menu-made.com/"><img id="menumade" src="MENULOGO.jpg" /></a>
+            </div>
+
+            <script>
+                var loader = document.getElementById("preloader");
+
+                window.addEventListener("load", function () {
+                    loader.style.display = "none";
+                });
+            </script>
+
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+            <script>
+                AOS.init();
+            </script>
         </div>
 
-        <!-- <div data-aos="zoom-out-down" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" style="opacity: .8;" class="overlay"></div>
+        <!-- <div data-aos="zoom-out-down" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" style="opacity: .8;" class="overlay"></div> -->
 
         <script>
     (function(){
@@ -246,7 +275,6 @@
         };
         h.appendChild(s);
     })();
-</script> -->
-
+</script>
     </body>
 </html>
